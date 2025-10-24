@@ -1,44 +1,68 @@
-📘 Project Description
+# 🖼️ Image Processing Backend (Cloudinary-like Service)
 
-This project focuses on building a backend system for an image processing service, inspired by platforms like Cloudinary.
-The service enables users to upload images, apply a variety of transformations, and retrieve processed images in different formats.
+![GitHub last commit](https://img.shields.io/github/last-commit/<your-username>/<your-repo>)
+![GitHub issues](https://img.shields.io/github/issues/<your-username>/<your-repo>)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/<your-username>/<your-repo>)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-It incorporates secure user authentication, image management, and efficient retrieval mechanisms to ensure a scalable and user-friendly experience.
+---
 
-🔐 User Authentication
+## 📘 Overview
 
-Sign-Up: Enables users to create a new account.
+This project is a **backend system for an image processing service**, inspired by **Cloudinary**.  
+It allows users to **upload images**, apply **various transformations**, and **retrieve** processed images in different formats.  
 
-Log-In: Allows users to securely access their account.
+The system is designed with **user authentication**, **robust image management**, and **efficient retrieval mechanisms** to ensure a secure and scalable experience.
 
-JWT Authentication: Protects API endpoints using JSON Web Tokens for secure and authenticated access.
+---
 
-🖼️ Image Management
+## 🚀 Features
 
-Upload Image: Upload and store images on the server.
+### 🔐 User Authentication
+- **Sign-Up:** Create a new user account  
+- **Log-In:** Securely access an existing account  
+- **JWT Authentication:** Protect API endpoints using JSON Web Tokens for authenticated requests  
 
-Transform Image: Apply transformations such as resizing, cropping, rotating, or watermarking.
+---
 
-Retrieve Image: Fetch stored images in multiple formats.
+### 🖼️ Image Management
+- **Upload Image:** Upload and store images on the server or cloud storage  
+- **Transform Image:** Apply transformations (resize, crop, rotate, watermark, etc.)  
+- **Retrieve Image:** Access stored images in various formats  
+- **List Images:** Retrieve all uploaded images by a user, including metadata  
 
-List Images: Display all uploaded images for a user, including relevant metadata.
+---
 
-🎨 Image Transformations
+### 🎨 Image Transformations
+The system supports multiple transformation operations:  
+- **Resize**  
+- **Crop**  
+- **Rotate**  
+- **Watermark**  
+- **Flip / Mirror**  
+- **Compress**  
+- **Change format** (JPEG, PNG, etc.)  
+- **Apply filters** (e.g., Grayscale, Sepia)
 
-The system supports multiple image transformation operations, including:
+---
 
-Resize
+## 🧰 Tech Stack
 
-Crop
+| Layer | Technology |
+|--------|-------------|
+| **Backend Framework** | Node.js / Express (or Fastify, NestJS, etc.) |
+| **Database** | MongoDB / PostgreSQL |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **File Storage** | Local Storage / AWS S3 / Cloudinary SDK |
+| **Image Processing** | Sharp / Jimp / ImageMagick |
+| **Environment Management** | dotenv |
+| **Testing (optional)** | Jest / Mocha |
 
-Rotate
+---
 
-Watermark
+## ⚙️ Installation & Setup
 
-Flip / Mirror
-
-Compress
-
-Change Format (JPEG, PNG, etc.)
-
-Apply Filters (e.g., Grayscale, Sepia, etc.)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
