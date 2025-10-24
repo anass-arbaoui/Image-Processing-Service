@@ -66,3 +66,24 @@ The system supports multiple transformation operations:
    ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
+
+2. **Install dependencies**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
+
+3. **Set up environment variables**
+   .env
+   PORT=5000
+   DATABASE_URL=<your_database_url>
+   JWT_SECRET=<your_jwt_secret>
+   MINIO_ENDPOINT=<minio_endpoint>
+   MINIO_ACCESS_KEY=<minio_access_key>
+   MINIO_SECRET_KEY=<minio_secret_key>
+   MINIO_BUCKET=<bucket_name>
+
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+
