@@ -54,7 +54,7 @@ The system supports multiple transformation operations:
 | **Database** | MongoDB / PostgreSQL |
 | **Authentication** | JWT (JSON Web Tokens) |
 | **File Storage** | **MinIO** (self-hosted S3-compatible object storage) |
-| **Image Processing** | Sharp / Jimp / ImageMagick |
+| **Image Processing** | Sharp |
 | **Environment Management** | dotenv |
 | **Testing (optional)** | Jest / Mocha |
 
