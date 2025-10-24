@@ -26,7 +26,7 @@ The system is designed with **user authentication**, **robust image management**
 ---
 
 ### 🖼️ Image Management
-- **Upload Image:** Upload and store images on the server or cloud storage  
+- **Upload Image:** Upload and store images on the server or via MinIO object storage  
 - **Transform Image:** Apply transformations (resize, crop, rotate, watermark, etc.)  
 - **Retrieve Image:** Access stored images in various formats  
 - **List Images:** Retrieve all uploaded images by a user, including metadata  
@@ -53,7 +53,7 @@ The system supports multiple transformation operations:
 | **Backend Framework** | Node.js / Express (or Fastify, NestJS, etc.) |
 | **Database** | MongoDB / PostgreSQL |
 | **Authentication** | JWT (JSON Web Tokens) |
-| **File Storage** | Local Storage / AWS S3 / Cloudinary SDK |
+| **File Storage** | **MinIO** (self-hosted S3-compatible object storage) |
 | **Image Processing** | Sharp / Jimp / ImageMagick |
 | **Environment Management** | dotenv |
 | **Testing (optional)** | Jest / Mocha |
